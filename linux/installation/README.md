@@ -11,7 +11,7 @@ There are a few extra features for one-line installation like [onboarding](https
 
 ```bash
 ❯ ./mde_installer.sh --help
-mde_installer.sh v0.4.2
+mde_installer.sh v0.5.8
 usage: basename ./mde_installer.sh [OPTIONS]
 Options:
  -c|--channel         specify the channel from which you want to install. Default: insiders-fast
@@ -28,7 +28,10 @@ Options:
  -s|--verbose         verbose output
  -v|--version         print out script version
  -d|--debug           set debug mode
- --proxy <proxy URL>  set proxy
+ --log-path <PATH>    also log output to PATH
+ --http-proxy <URL>   set http proxy
+ --https-proxy <URL>  set https proxy
+ --ftp-proxy <URL>    set ftp proxy
  -h|--help            display help
 ```
 
